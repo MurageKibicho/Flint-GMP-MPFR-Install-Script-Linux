@@ -37,7 +37,7 @@ chmod +x Download.sh
 I installed Flint in home. Modify this command to match your build
 
 ```
-clear && gccmain.c -o m.o   -I/home/Flint-GMP-MPFR-Install-Script-Linux/build/local/include   -L/home/Flint-GMP-MPFR-Install-Script-Linux/build/local/lib   -lflint -lmpfr -lgmp -lm   -Wl,-rpath,/home/Flint-GMP-MPFR-Install-Script-Linux/build/local/lib   && ./m.o
+clear && gcc main.c -o m.o   -I/home/Flint-GMP-MPFR-Install-Script-Linux/build/local/include   -L/home/Flint-GMP-MPFR-Install-Script-Linux/build/local/lib   -lflint -lmpfr -lgmp -lm   -Wl,-rpath,/home/Flint-GMP-MPFR-Install-Script-Linux/build/local/lib   && ./m.o
 ```
 
 ### Google Colab installation
