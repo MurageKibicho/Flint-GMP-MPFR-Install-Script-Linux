@@ -21,16 +21,16 @@ git clone https://github.com/MurageKibicho/Flint-GMP-MPFR-Install-Script-Linux.g
 ```
 3.  cd into the folder.
 ```
-cd Flint-GMP-MPFR-Install-Script-Linu
+cd Flint-GMP-MPFR-Install-Script-Linux
 ```
 
 4. Make sure the library versions in `Download.sh` align with your goals.
 
 5. Make Download.sh executable, run Download.sh
 ```
-!chmod +x Download.sh
+chmod +x Download.sh
 
-!./Download.sh
+./Download.sh
 ```
 
 6. Run sample program
